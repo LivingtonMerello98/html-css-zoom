@@ -6,6 +6,12 @@
 
 /*layout classes*/
 
+main{
+    position: fixed;
+    left: 0;
+    right: 0; 
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -18,7 +24,13 @@
 
 .col-33{
     width: calc(100% / 7 - 10px);
-    border: 1px solid black;;
+    background-image:  url("https://st4.depositphotos.com/20498488/28410/i/450/depositphotos_284102922-stock-photo-snowcapped-summits-central-andes-mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    height: 100px;
+
+    /*border: 1px solid white;; */
 }
 
 
@@ -64,5 +76,22 @@
 .px-30{
     padding: 0 30px ;
 }
+
+
+/*combined class*/
+
+.pxy-40-0{
+    padding: 40px 0;
+}
+
+/*bg-color*/
+.bg-black{
+    background-color: black;;
+}
+
+.bg-grey{
+    background-color: grey;;
+}
+
 
 
