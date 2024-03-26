@@ -3,3 +3,66 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*layout classes*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 7 - 10px);
+    border: 1px solid black;;
+}
+
+
+/*py*/
+
+.py-5{
+    padding: 5px 0;
+}
+.py-10{
+    padding: 10px 0;
+}
+.py-15{
+    padding: 15px 0;
+}
+.py-20{
+    padding: 20px 0;
+}
+.py-25{
+    padding: 25px 0;
+}
+.py-30{
+    padding: 30px 0;
+}
+
+
+/*px*/
+
+.px-5{
+    padding: 0 5px
+}
+.px-10{
+    padding: 0 10px;
+}
+.px-15{
+    padding: 0 15px ;
+}
+.px-20{
+    padding: 0 20px ;
+}
+.px-25{
+    padding: 0 25px ;
+}
+.px-30{
+    padding: 0 30px ;
+}
+
+
